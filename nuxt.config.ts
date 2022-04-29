@@ -6,7 +6,11 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
-  css: ['vuetify/styles'],
+  css: [
+    'vuetify/lib/styles/main.sass',
+    // https://next.vuetifyjs.com/en/features/icon-fonts/#installing-icon-fonts
+    '@mdi/font/css/materialdesignicons.css',
+  ],
   build: {
     transpile: ['vuetify'],
   },
