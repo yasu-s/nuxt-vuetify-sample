@@ -3,11 +3,11 @@ const { data } = await useAsyncData('dummy', () => Promise.resolve('aaa'))
 </script>
 
 <template>
-  <div class="text-center">
+  <div>
     <Head>
       <Title>{{ data }}</Title>
     </Head>
-    <NuxtPage />
+
     <div>
       <v-btn class="ma-2" color="primary">
         Accept

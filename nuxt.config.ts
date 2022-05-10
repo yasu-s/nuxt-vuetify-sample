@@ -4,6 +4,9 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   dev: true,
   ssr: false,
+  components: {
+    global: false,
+  },
   typescript: {
     strict: true,
   },
