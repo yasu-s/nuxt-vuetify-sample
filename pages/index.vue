@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Button from '@/components/Button.vue'
+
 const { data } = await useAsyncData('dummy', () => Promise.resolve('aaa'))
 </script>
 
@@ -41,5 +43,12 @@ const { data } = await useAsyncData('dummy', () => Promise.resolve('aaa'))
 
       <v-btn class="ma-2" variant="text" icon="mdi-thumb-down" color="red-lighten-2"></v-btn>
     </div>
+
+    <Button>
+      <template #label> aaaa </template>
+      <template #default="{ params }">
+        {{ params }}
+      </template>
+    </Button>
   </div>
 </template>
