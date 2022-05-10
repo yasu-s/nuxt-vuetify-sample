@@ -1,8 +1,8 @@
 {
   "recommendations": [
-    "johnsoncodehk.volar",
-    "johnsoncodehk.vscode-typescript-vue-plugin",
     "msjsdiag.debugger-for-chrome",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin"
   ]
 }
