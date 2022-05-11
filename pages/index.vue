@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Button from '@/components/Button.vue'
 
-const { data } = await useAsyncData('dummy', () => Promise.resolve('aaa'))
+const { data, refresh } = await useAsyncData('index.vue', () => Promise.resolve(`aaa: ${new Date().getTime()}`))
 </script>
 
 <template>
@@ -11,7 +11,7 @@ const { data } = await useAsyncData('dummy', () => Promise.resolve('aaa'))
     </Head>
 
     <div>
-      <v-btn class="ma-2" color="primary">
+      <v-btn class="ma-2" color="primary" @click="refresh()">
         Accept
         <v-icon end icon="mdi-checkbox-marked-circle"></v-icon>
       </v-btn>
