@@ -50,5 +50,12 @@ const { data, refresh } = await useAsyncData('index.vue', () => Promise.resolve(
         {{ params }}
       </template>
     </Button>
+
+    <div>
+      <ol>
+        <li><NuxtLink to="/test1">test1.vue</NuxtLink></li>
+        <li><NuxtLink to="/test2">test2.vue</NuxtLink></li>
+      </ol>
+    </div>
   </div>
 </template>

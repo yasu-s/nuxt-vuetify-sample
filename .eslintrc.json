@@ -98,6 +98,7 @@
     "vue/no-empty-component-block": "error",
     "vue/no-useless-mustaches": "error",
     "vue/v-on-function-call": ["error", "always"],
-    "vue/padding-line-between-blocks": "error"
+    "vue/padding-line-between-blocks": "error",
+    "vue/no-multiple-template-root": "off"
   }
 }
