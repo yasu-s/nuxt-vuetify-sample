@@ -17,6 +17,10 @@ const router = useRouter()
 function navigateToTest1() {
   router.push('/test1')
 }
+
+definePageMeta({
+  layout: 'custom',
+})
 </script>
 
 <template>
