@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const title = ref('test1')
+const { $hello } = useNuxtApp()
 </script>
 
 <template>
@@ -9,5 +10,6 @@ const title = ref('test1')
       <Meta name="description" :content="title" />
     </Head>
     <span>{{ title }}</span>
+    <span>{{ $hello() }}</span>
   </div>
 </template>
