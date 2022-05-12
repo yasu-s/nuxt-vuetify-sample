@@ -9,7 +9,6 @@
     "lint:fix": "eslint --ext .ts,.vue --fix ."
   },
   "devDependencies": {
-    "@mdi/font": "^6.6.96",
     "@nuxtjs/eslint-config-typescript": "^9.0.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
