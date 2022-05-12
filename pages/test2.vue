@@ -1,6 +1,8 @@
 <script setup lang="ts">
 const route = useRoute()
 const title = ref('test2')
+const foo = useFoo()
+hoge()
 
 /**
  * homeに戻る
@@ -28,7 +30,7 @@ definePageMeta({
     <Head>
       <Title>{{ title }}</Title>
     </Head>
-    <span>{{ title }}</span>
+    <span>{{ title }}{{ foo }}</span>
     <p>{{ route.query.hoge }}</p>
 
     <div>

@@ -1,6 +1,9 @@
 <script setup lang="ts">
 const title = ref('test1')
-const { $hello } = useNuxtApp()
+// const { $hello } = useNuxtApp()
+onMounted(() => {
+  console.log('onMounted')
+})
 </script>
 
 <template>
