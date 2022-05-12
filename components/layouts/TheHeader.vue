@@ -17,6 +17,7 @@ const drawer = ref(false)
       <v-list-item prepend-icon="mdi-account-supervisor-circle" title="Supervisors" value="supervisors" to="/test1">
       </v-list-item>
       <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin" to="/test2"></v-list-item>
+      <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin" to="/test3"></v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
