@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
-  css: ['vuetify/lib/styles/main.sass'],
+  css: ['vuetify/lib/styles/main.sass', 'material-design-icons-iconfont/dist/material-design-icons.css'],
   build: {
     transpile: ['vuetify'],
   },
