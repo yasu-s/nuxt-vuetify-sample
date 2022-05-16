@@ -18,30 +18,30 @@ const { data, refresh } = await useAsyncData('index.vue', () => Promise.resolve(
 
       <v-btn class="ma-2" color="red">
         Decline
-        <v-icon end icon="cancel"></v-icon>
+        <v-icon end icon="lock"></v-icon>
       </v-btn>
 
       <v-btn class="ma-2">
-        <v-icon start icon="minus-circle"></v-icon>
+        <v-icon start icon="store"></v-icon>
         Cancel
       </v-btn>
     </div>
 
     <div>
       <v-btn class="ma-2" color="orange-darken-2">
-        <v-icon start icon="arrow-left"></v-icon>
+        <v-icon start icon="done_all"></v-icon>
         Back
       </v-btn>
 
-      <v-btn class="ma-2" color="purple" icon="wrench"></v-btn>
+      <v-btn class="ma-2" color="purple" icon="home_work"></v-btn>
 
-      <v-btn class="ma-2" color="indigo" icon="cloud-upload"></v-btn>
+      <v-btn class="ma-2" color="indigo" icon="app_settings_alt"></v-btn>
     </div>
 
     <div>
-      <v-btn class="ma-2" variant="text" icon="thumb-up" color="blue-lighten-2"></v-btn>
+      <v-btn class="ma-2" variant="text" icon="thumb_up_off_alt" color="blue-lighten-2"></v-btn>
 
-      <v-btn class="ma-2" variant="text" icon="thumb-down" color="red-lighten-2"></v-btn>
+      <v-btn class="ma-2" variant="text" icon="thumb_down_off_alt" color="red-lighten-2"></v-btn>
     </div>
 
     <Button>

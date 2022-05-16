@@ -5,6 +5,7 @@ useHead({
   charset: 'utf-8',
   link: [
     {
+      // https://fonts.google.com/icons?selected=Material+Icons
       rel: 'stylesheet',
       href: 'https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp',
     },

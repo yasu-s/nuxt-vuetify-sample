@@ -34,8 +34,8 @@ definePageMeta({
     <p>{{ route.query.hoge }}</p>
 
     <div>
-      <v-btn class="ma-2" variant="text" icon="mdi-thumb-down" color="red-lighten-2" @click="navigateToHome()"></v-btn>
-      <v-btn class="ma-2" variant="text" icon="mdi-thumb-up" color="blue-lighten-2" @click="navigateToTest1()"></v-btn>
+      <v-btn class="ma-2" variant="text" icon="arrow_left" color="red-lighten-2" @click="navigateToHome()"></v-btn>
+      <v-btn class="ma-2" variant="text" icon="unfold_less" color="blue-lighten-2" @click="navigateToTest1()"></v-btn>
     </div>
   </div>
 </template>
