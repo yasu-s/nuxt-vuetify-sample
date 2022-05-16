@@ -99,6 +99,10 @@
     "vue/no-useless-mustaches": "error",
     "vue/v-on-function-call": ["error", "always"],
     "vue/padding-line-between-blocks": "error",
-    "vue/no-multiple-template-root": "off"
+    "vue/no-multiple-template-root": "off",
+    "vue/no-undef-properties": "error",
+    "vue/define-macros-order": ["error", {
+      "order": ["defineProps", "defineEmits"]
+    }]
   }
 }
