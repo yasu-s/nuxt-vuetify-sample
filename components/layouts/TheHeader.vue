@@ -15,9 +15,13 @@ const drawer = ref(false)
     <v-list nav>
       <v-list-item prepend-icon="mdi-email" title="Inbox" value="inbox" to="/"></v-list-item>
       <v-list-item prepend-icon="mdi-account-supervisor-circle" title="Supervisors" value="supervisors" to="/test1">
+        <template #append>
+          <v-badge color="info" content="12" inline></v-badge>
+        </template>
       </v-list-item>
-      <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin" to="/test2"></v-list-item>
-      <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin" to="/test3"></v-list-item>
+      <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin1" to="/test2"></v-list-item>
+      <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin2" to="/test3"></v-list-item>
+      <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin3" to="/components"></v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
