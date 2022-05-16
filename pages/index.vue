@@ -33,9 +33,9 @@ const { data, refresh } = await useAsyncData('index.vue', () => Promise.resolve(
         Back
       </v-btn>
 
-      <v-btn class="ma-2" color="purple" icon="mdi-wrench"></v-btn>
+      <v-btn class="ma-2" color="purple" icon="fa-check"></v-btn>
 
-      <v-btn class="ma-2" color="indigo" icon="mdi-cloud-upload"></v-btn>
+      <v-btn class="ma-2" color="indigo" icon="fa-home"></v-btn>
     </div>
 
     <div>

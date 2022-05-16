@@ -6,7 +6,7 @@ useHead({
   link: [
     {
       rel: 'stylesheet',
-      href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css',
+      href: 'https://cdn.jsdelivr.net/npm/font-awesome@4.x/css/font-awesome.min.css',
     },
   ],
 })
