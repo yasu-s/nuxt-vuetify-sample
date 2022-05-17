@@ -20,8 +20,9 @@ const drawer = ref(false)
         </template>
       </v-list-item>
       <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin1" to="/test2"></v-list-item>
-      <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin2" to="/test3"></v-list-item>
-      <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin3" to="/components"></v-list-item>
+      <v-list-item prepend-icon="mdi-apple-keyboard-option" title="Clock-in" value="clockin2" to="/test3"></v-list-item>
+      <v-list-item prepend-icon="mdi-camera" title="components" value="components" to="/components"></v-list-item>
+      <v-list-item prepend-icon="mdi-keyboard" title="inputs" value="inputs" to="/inputs"></v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
