@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const snackbar = ref(false)
+</script>
+
 <template>
   <div>
     <v-card>
@@ -35,5 +39,9 @@
         </v-expansion-panel>
       </v-expansion-panels>
     </v-card>
+    <v-card>
+      <v-btn @click="snackbar = !snackbar">snackbar</v-btn>
+    </v-card>
+    <v-snackbar v-model="snackbar"> テスト </v-snackbar>
   </div>
 </template>
